@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h3 {
+      color: #123456;
+      background-color: #efefef;
+      border-bottom: 5px solid #123456 ;  
+      padding: 10px;
+      margin: 0;
+    }
+    button {
+      width: 100px;
+      height: 40px;
+    }
+    div {
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    function hello() {
+      document.querySelector("h3").innerHTML = "Hello";
+    }
+
+    function world() {
+      document.querySelector("h3").innerHTML = "World";
+    }
+  </script>
+</head>
+<body>
+  <h3>Click button.</h3>
+  <div>
+    <button onclick="hello()">Hello</button>
+    <button onclick="world()">World</button>  
+  </div>
+</body>
+</html>
