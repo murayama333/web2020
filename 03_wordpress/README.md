@@ -1,6 +1,6 @@
-# WordPress
+# 3 WordPress
 
-## WordPressとは
+## 3.1 WordPressとは
 
 世界で最も利用されているブログ管理システムです。CMSと呼ばれることもあります。
 
@@ -14,7 +14,7 @@
 
 ---
 
-## wordpress .comと .org
+## 3.2 wordpress .comと .org
 
 * [https://ja.wordpress.com/](https://ja.wordpress.com/)
   + 有料（一部無料）のWordPressサービス
@@ -33,7 +33,7 @@
 
 ---
 
-## WordPressを支えるテクノロジー
+## 3.3 WordPressを支えるテクノロジー
 
 * HTML/CSS/JavaScript
 * PHP
@@ -49,7 +49,7 @@
 
 ---
 
-## WordPressで知っておくべきこと
+## 3.4 WordPressで知っておくべきこと
 
 * 管理サイト
   + 投稿と固定ページ、メディア
@@ -74,12 +74,12 @@
     + パーマリンク設定：URLのカスタマイズなど
     > 設定項目は、頻繁に変更するものではありません。
     
- <img src="img/03.png">
+ <img src="img/03.png" width="600px">
 
 > 管理サイトの操作は簡単ですが、直接サーバにログインしてファイルやフォルダを編集する方が効率の良いケースもあります。
 
 ---
 
-## 自分でWordPressでサイトを作るには
+## 3.5 自分でWordPressでサイトを作るには
 
 + さくらインターネット、エックスサーバーのようなレンタルサーバ会社と契約すると、WordPressのサイトを自作できます。

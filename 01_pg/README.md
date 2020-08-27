@@ -32,23 +32,25 @@
 
 ### Mac - Finder
 
-<img src="img/02.png">
+<img src="img/02.png" width="600px">
 
 ### Mac - Terminal (iterm2)
 
-<img src="img/03.png">
+<img src="img/03.png" width="600px">
 
 ### TextEdior - VS Code
 
-<img src="img/04.png">
-
 https://code.visualstudio.com/
+
+<img src="img/04.png" width="600px">
+
 
 ### Web Browser - Chrome
 
-<img src="img/05.png">
-
 https://www.google.co.jp/chrome/
+
+<img src="img/05.png"  width="600px">
+
 
 ---
 
@@ -99,7 +101,7 @@ https://www.google.co.jp/chrome/
 </html>
 ```
 
-<img src="img/01.png" width="700px">
+<img src="img/01.png" width="600px">
 
 
 <img src="img/html.dio.svg?abc">
