@@ -96,7 +96,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Page 3</title>
 </head>
 <body>
   <div>
@@ -121,7 +121,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Page 4</title>
 </head>
 <body>
   <h3></h3>
@@ -166,7 +166,7 @@ selector {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page 1</title>
+  <title>Page 5</title>
 </head>
 <body>
   <h3>GAFA</h3>
@@ -209,7 +209,7 @@ h3 {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page 1-3</title>
+  <title>Page 6</title>
   <style>
     li {
       border: 1px solid #ddd;
@@ -255,32 +255,33 @@ h3 {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page 1-3</title>
+  <title>Page 7</title>
   <style>
-    li {
-      border: 1px solid #ddd;
-      padding: 10px 0 10px 10px;
-      margin-bottom: 10px;
-      box-shadow: 4px 4px rgba(0,0,0,0.3);
-      list-style: none;
-      transition: all 300ms 0s ease;
+    div {
+      border: 1px solid grey;
     }
-    .my-class-a {
-      font-size: 1.2rem;
+
+    .row {
+      display: flex;
     }
-    #my-id-4 {
-      background-color: #eee;
+    
+    .row div {
+      flex: 1;
     }
   </style>
 </head>
 <body>
-  <h3>GAFA</h3>
-  <ul>
-    <li id="my-id-1"><a href="https://google.com">Google</a></li>
-    <li id="my-id-2" class="my-class-a"><a href="https://apple.com">Apple</a></li>
-    <li id="my-id-3"><a href="https://facebook.com">Facebook</a></li>
-    <li id="my-id-4" class="my-class-a"><a href="https://amazon.com">Amazon</a></li>
-  </ul>
+  <div class="row">
+    <div>1 - A</div>
+    <div>1 - B</div>
+    <div>1 - C</div>
+  </div>
+  <div class="row">
+    <div>2 - A</div>
+    <div>2 - B</div>
+    <div>2 - C</div>
+  </div>  
 </body>
 </html>
 ```
+
