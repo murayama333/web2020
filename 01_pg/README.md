@@ -4,7 +4,7 @@
 
 + Web（インターネット）を活用したプログラミング
 + アプリケーションとWebアプリケーションの違い
-+ フロントエンドとかバックエンドとか
++ フロントエンドとバックエンド
 
 <img src="img/web.dio.svg?abc">
 
@@ -38,7 +38,7 @@
 
 <img src="img/03.png" width="600px">
 
-### TextEdior - VS Code
+### Text Edior - VS Code
 
 https://code.visualstudio.com/
 
