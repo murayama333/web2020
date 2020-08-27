@@ -1,0 +1,132 @@
+# HTML/CSS
+
+## article.html
+
+次の結果を表示するHTMLファイル（`article.html`）を作成してください。
+
+<img src="img/02.png?a">
+
+
+### Contents
+
+```
+# HTML
+
+## Hyper Text Markup Language
+
+HTML(Hyper Text Markup Language)とはWebページを記述するための言語です。パソコンやスマホを使って、インターネットをしているときに、画面に表示されている内容のほとんどはHTMLで記述されています。
+
+HTMLの名前の一部であるハイパーテキスト（Hyper Text）とは、リンク機能を持つテキストを意味しています。インターネットをしているとき、リンクをクリックして他のWebページを開くといった動作は誰もが経験していることでしょう。またHTMLの名前に含まれるマークアップ言語（Markup Language）とは、文書に対してマーク付けをしていくための言語であることを意味しています。このマーク付けには、HTMLに用意されているタグを使います。HTMLで記述された文書（HTMLファイル）をブラウザで表示すると、ブラウザによってマークアップされた文書が解析されて画面に表示されます。
+
+## sample.html
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample</title>
+</head>
+<body>
+  <h1>Hello HTML!</h1>
+</body>
+</html>
+
+![](img/01.png)
+
+## HTMLタグ
+
+|タグ|意味|
+|:--|:--|
+|html|HTML文書|
+|head|HTML文書のヘッダー|
+|meta|HTML文書のメタ情報|
+|title|HTML文書のタイトル|
+|body|HTML文書のボディ|
+|h1|見出し|
+
+---
+
+## 参考資料
+
++ [HyperText Markup Language](https://ja.wikipedia.org/wiki/HyperText_Markup_Language)
++ [HTML5](https://ja.wikipedia.org/wiki/HTML5)
++ [World Wide Web Consortium](https://ja.wikipedia.org/wiki/World_Wide_Web_Consortium)
+
+```
+
+![img/01.png](img/01.png)
+
+> 右クリックメニューからダウンロードして保存します。
+
+<!--
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>article</title>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+</head>
+<body>
+		<div class="article">
+    <h1>HTML</h1>
+    <h2>Hyper Text Markup Language</h2>
+    <p>HTML(Hyper Text Markup Language)とはWebページを記述するための言語です。パソコンやスマホを使って、インターネットをしているときに、画面に表示されている内容のほとんどはHTMLで記述されています。
+    </p>
+    <p>HTMLの名前の一部であるハイパーテキスト（Hyper Text）とは、リンク機能を持つテキストを意味しています。インターネットをしているとき、リンクをクリックして他のWebページを開くといった動作は誰もが経験していることでしょう。またHTMLの名前に含まれるマークアップ言語（Markup Language）とは、文書に対してマーク付けをしていくための言語であることを意味しています。このマーク付けには、HTMLに用意されているタグを使います。HTMLで記述された文書（HTMLファイル）をブラウザで表示すると、ブラウザによってマークアップされた文書が解析されて画面に表示されます。
+    </p>
+
+    <h2>sample.html</h2>
+    <pre>&lt;!DOCTYPE html&gt;
+&lt;html lang="ja"&gt;
+&lt;head&gt;
+	&lt;meta charset="UTF-8"&gt;
+	&lt;title&gt;Sample&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;h1&gt;Hello HTML!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+    <img src="../img/01.png" alt="">
+    <h2>HTMLタグ</h2>
+    <table border="1">
+        <tr>
+            <th>タグ</th>
+            <th>意味</th>
+        </tr>
+        <tr>
+            <td>html</td>
+            <td>HTML文書</td>
+        </tr>
+        <tr>
+            <td>head</td>
+            <td>HTML文書のヘッダー</td>
+        </tr>
+        <tr>
+            <td>meta</td>
+            <td>HTML文書のメタ情報</td>
+        </tr>
+        <tr>
+            <td>title</td>
+            <td>HTML文書のタイトル</td>
+        </tr>
+        <tr>
+            <td>body</td>
+            <td>HTML文書のボディ</td>
+        </tr>
+        <tr>
+            <td>h1</td>
+            <td>見出し</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>参考資料</h2>
+    <ul>
+        <li><a href="https://ja.wikipedia.org/wiki/HyperText_Markup_Language">HyperText Markup Language</a></li>
+        <li><a href="https://ja.wikipedia.org/wiki/World_Wide_Web_Consortium">World Wide Web Consortium</a></li>
+        <li><a href="https://ja.wikipedia.org/wiki/HTML5">HTML5</a></li>
+		</ul>
+	</div>
+</body>
+</html>
+
+-->

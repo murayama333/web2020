@@ -2,9 +2,11 @@
 
 ## 1.1 Webプログラミングとは
 
-TODO
-<br>
-<br>
++ Web（インターネット）を活用したプログラミング
++ アプリケーションとWebアプリケーションの違い
++ フロントエンドとかバックエンドとか
+
+<img src="img/web.dio.svg?abc">
 
 ---
 
@@ -12,21 +14,41 @@ TODO
 
 |言語|特徴|
 |:--|:--|
-|HTML|TODO|
-|CSS|TODO|
-|JavaScript|TODO|
-|Python|TODO|
-|PHP|TODO|
-|Java|TODO|
+|HTML|Webページを記述する言語|
+|CSS|Webページの見栄えを調整する言語|
+|JavaScript|Webブラウザ上で動作する言語|
+|Python|AI、ディープラーニング、機械学習|
+|PHP|Webアプリケーション開発|
+|Java|ビジネスシーンでよく使われる言語|
+|SQL|データベースを操作する言語|
 
 ---
 
-## 1.3 プログラミングを始める前に
+## 1.3 Webプログラミングを始める前に
 
 + ファイルとフォルダ
 + GUIとCUI
-+ テキストエディタ
++ テキストエディタとWebブラウザ
 
+### Mac - Finder
+
+<img src="img/02.png">
+
+### Mac - Terminal (iterm2)
+
+<img src="img/03.png">
+
+### TextEdior - VS Code
+
+<img src="img/04.png">
+
+https://code.visualstudio.com/
+
+### Web Browser - Chrome
+
+<img src="img/05.png">
+
+https://www.google.co.jp/chrome/
 
 ---
 
@@ -78,3 +100,6 @@ TODO
 ```
 
 <img src="img/01.png" width="700px">
+
+
+<img src="img/html.dio.svg?abc">
