@@ -154,9 +154,9 @@ selector {
 
 ### 2.2.2 指定方法
 
-* インラインスタイルシート
-* 内部スタイルシート
-* 外部スタイルシート
+* インラインスタイルシート（ `style` 属性）
+* 内部スタイルシート（ `style` タグ）
+* 外部スタイルシート（ `link` タグ）
 
 #### 演習 (page5.html)
 
@@ -167,13 +167,19 @@ selector {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Page 5</title>
+  <style>
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h3>GAFA</h3>
-  <hr>
   <ul>
     <li><a href="https://google.com">Google</a></li>
-    <li><a href="https://apple.com">Apple</a></li>
+    <li style="color: red"><a href="https://apple.com">Apple</a></li>
     <li><a href="https://facebook.com">Facebook</a></li>
     <li><a href="https://amazon.com">Amazon</a></li>
   </ul>
@@ -242,12 +248,59 @@ h3 {
 
 ---
 
-### 2.2.4 レイアウトとコンポーネント
+### 2.2.4 プロパティ
+
+|プロパティ名|意味|使用例|
+|:--|:--|:--|
+|margin|外部余白| margin: 20px 10px 5px 0;<br>margin-right: 20px;|
+|border|罫線|border: solid 1px red;|
+|padding|外部余白| padding: 20px 10px 5px 0;<br>parring-right: 20px;|
+|width|横幅| width: 100px;|
+|height|縦幅| height: 100px;|
+|color|文字色| color: red;|
+|background-color|文字色| background-color: red;|
+|font-size|フォントサイズ| font-size: 24px;|
+|display|表示形式| display: block;<br>display: inline;<br>display: none;<br>display: flex;|
+|flex|lexコンテナ内の幅指定| flex: 1;|
+
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 7</title>
+  <style>
+    .box {
+      margin: 30px;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    .label {
+      background-color: #ddd;
+      color: red;
+      font-size: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box label">
+    Box1
+  </div>
+</body>
+</html>
+```
+
+---
+
+### 2.2.5 レイアウトとコンポーネント
 
 * レイアウト
 * コンポーネント
 
-#### 演習 (page7.html)
+#### 演習 (page8.html)
 
 ```html
 <!DOCTYPE html>
